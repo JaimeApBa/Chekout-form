@@ -10,7 +10,7 @@ Esta página muestra un layout con los campos requeridos en una pasarela de pago
 
 #### Entorno de producción
 
-Esta página ha sido desplegada en [heroku](https://secure-waters-20164.herokuapp.com/) donde puedes comprobar su funcionamiento sin ningún tipo de instalación previa.
+Esta página ha sido desplegada en [Vercel](https://chekoutform.vercel.app/) donde puedes comprobar su funcionamiento sin ningún tipo de instalación previa.
 
 #### Entorno local
 
