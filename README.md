@@ -1,27 +1,48 @@
-# CheckoutForm
+# Chekout form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+Formulario de una pasarela de pago.
+ 
+## Descripción
 
-## Development server
+Esta página muestra un layout con los campos requeridos en una pasarela de pago y realiza las validaciones de todos los campos para el correcto funcionamiento de dicho procedimiento.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalación
 
-## Code scaffolding
+#### Entorno de producción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esta página ha sido desplegada en [heroku](https://secure-waters-20164.herokuapp.com/) donde puedes comprobar su funcionamiento sin ningún tipo de instalación previa.
 
-## Build
+#### Entorno local
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instalaciones previas:
+1. [Angular CLI](https://angular.io/cli).
 
-## Running unit tests
+Primero descargar el proyecto y proceder a la instalación de los modulos de Angular: 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell
+    # Clonar o instalar comandos
+    npm install
+```
 
-## Running end-to-end tests
+Iniciamos el FrontEnd en *http://localhost:4200* para poder acceder a la página web:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```shell
+    # test o ejecutar commandos
+    ng serve
+```
 
-## Further help
+## Uso
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Rellenar todos los campos para poder proceder al pago. Todos los campos deben de ser correctamente rellanados o el boton de envio no se activará.
+
+## Contribuciones
+
+Si estas planeando implementar una nueva funcionalidad, te recomiendo que primero lo comentes conmigo. Crea un nuevo *Issue* con tu nombre y contenido para hablarlo.
+
+## Autores
+
+[@JaimeApBa](https://github.com/JaimeApBa)
+
+## Licencia
+
+El código de este repositorio está bajo licencia open-source. Eres libre de reproducirlo pero no reproduzcas el mismo repositorio con el mismo contenido en cualquier otro lugar.
